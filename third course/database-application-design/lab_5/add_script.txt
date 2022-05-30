@@ -1,0 +1,32 @@
+INSERT INTO kaf(name_kaf) values('POVTAS');
+INSERT INTO kaf(name_kaf) values('PI');
+INSERT INTO kaf(name_kaf) values('VTIS');
+INSERT INTO kaf(name_kaf) values('AID');
+INSERT INTO kaf(name_kaf) values('EIT');
+
+INSERT INTO unit(name_unit, ed) values('Hour', 140 );
+
+INSERT INTO sphere(name_sph, id_unit) values('Academic work', 1);
+INSERT INTO sphere(name_sph, id_unit) values('Not academic work', 1);
+
+INSERT INTO index(name_ind, sphere_id_sph) values('Diploms', 1);
+INSERT INTO index(name_ind, sphere_id_sph) values('Labs', 1);
+INSERT INTO index(name_ind, sphere_id_sph) values('Course Works', 1);
+INSERT INTO index(name_ind, sphere_id_sph) values('Lections', 1);
+INSERT INTO index(name_ind, sphere_id_sph) values('Practical lections', 2);
+
+INSERT INTO prepodavatel(name_prepod) values('Sidodov A.V.');
+INSERT INTO prepodavatel(name_prepod) values('Begunkova N.O.');
+INSERT INTO prepodavatel(name_prepod) values('Jukova T.V.');
+INSERT INTO prepodavatel(name_prepod) values('Ivanov A.O.');
+INSERT INTO prepodavatel(name_prepod) values('Bogachev I.V.');
+INSERT INTO prepodavatel(name_prepod) values('Willow W.R.');
+
+
+INSERT INTO work(name_work, id_ind, id_kaf, id_prepod, year, volume) values('Programming', 4, 1, 3, 2022, 140);
+INSERT INTO work(name_work, id_ind, id_kaf, id_prepod, year, volume) values('BD', 2, 2, 2, 2022, 140);
+INSERT INTO work(name_work, id_ind, id_kaf, id_prepod, year, volume) values('DSAA', 1, 4, 5, 2021, 140);
+INSERT INTO work(name_work, id_ind, id_kaf, id_prepod, year, volume) values('TPPO', 3, 5, 4, 2020, 140);
+INSERT INTO work(name_work, id_ind, id_kaf, id_prepod, year, volume) values('IGS', 5, 3, 1, 2022, 140);
+
+
